@@ -1,0 +1,66 @@
+/* Mobile  */
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+
+        outline: 2px solid red;
+        outline-offset: -2px;
+    }
+  
+    .nav-link {
+        padding: 18 0;
+    }
+    .logo {
+        padding: 18px 0;
+
+    }
+    .menu-toggle {
+        min-height: 24px;
+        min-width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    }
+
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
+    .nav-list,
+    .adress-style {
+            display: none;
+        }
+}
+
+    /* Tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    
+        outline: 2px solid green;
+        outline-offset: -2px;
+            }
+        }
+
+        /* Common for Tablet and Dekstop */
+@media screen (min-width: 320px) and (max-width: 1157px) {
+    padding: 0 16px;
+}
+
+        /* Desktop */
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+        
+        outline: 2px solid orange;
+        outline-offset: -2px;
+            }
+        }
