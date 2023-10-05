@@ -57,6 +57,7 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 /*Header*/
 .header {
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -229,10 +230,8 @@ address {
 /*Section advantages*/
 
 .advantage-list {
-    
     display: flex;
     gap: 24px;
-    
 }
 
 .advantage-list-item {
@@ -332,7 +331,7 @@ address {
     display: flex;
     width: 100%;
     height: 100%;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     fill: var(--cloud);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -476,7 +475,7 @@ align-items: baseline;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:  16px;
+    gap: 16px;
 }
 .social-media-list-items {
 width: 40px;
@@ -600,15 +599,16 @@ input::placeholder {
 }
 
 
-/* .is-hidden {
+/* Для java 
+.is-hidden {
     display: none;
 } */
 
-  /* .is-open {
-     opacity: 1;
-     visibility: visible;
-     pointer-events: auto;
- }     */
+/* .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}     */
 
 .modal {
     position: absolute;
@@ -670,7 +670,7 @@ input::placeholder {
     margin-bottom: 8px;
 }
 
-/* моя помилка
+/* моя помилка (було зайве)
 label {
     display: flex;
     flex-direction: column;
@@ -767,15 +767,15 @@ border-color: #4D5AE5;
     border: none;
     fill: #f4f4fd;
 }
- .check-icon {
+.check-icon {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- 
+}
+
 
 .accent {
-        color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4D5AE5);
     }
 .send-button { 
     display: block;
@@ -795,44 +795,3 @@ border-color: #4D5AE5;
     margin: 0 auto;
 }
 
-/* Mobile menu */
-/* .menu-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 72px 16px 40px;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-}
-
-
-.mobile-menu-btn {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-}
-
-.mobile-menu-icon {}
-
-.mobile-menu-list {}
-
-.mobile-menu-item {}
-
-.mobile-menu-link {}
-
-.link {}
-
-.mobile-contacts {}
-
-.mobile-contacts-item {}
-
-.mobile-contacts-link {}
-
-.social-media-list {}
-
-.social-media-list-items {}
-
-.social-media-list-links {}
-
-.icons-footer {} */
