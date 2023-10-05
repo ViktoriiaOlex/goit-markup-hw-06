@@ -283,7 +283,6 @@ address {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-
 }
 .team-item {
     background: var(--white, #FFF);

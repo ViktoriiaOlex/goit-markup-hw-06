@@ -167,16 +167,27 @@
             margin: 72px auto;
         }
         /* Section advantages */
+        
     .advantage-list {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column;  */
         gap: 72px;
         }
 
     .advantage-title {
         text-align: center;
         }
-    
+    .advantage-list-item {
+            flex-basis: 100%;
+        }
+        /* Section Our Team */
+        .team-list {
+            gap: 72px;
+        }
+    .team-item {
+        flex-basis: 264px;
+        margin: 0 auto;
+                }
 }
 
   /* Common for Mobile and Tablet */
@@ -188,6 +199,9 @@
     .container-advatages-icon {
         display: none;
     }
+        .advantage-list {
+            flex-wrap: wrap;
+        }
     .advantage-title {
         font-size: 36px;
         font-weight: 700;
@@ -200,11 +214,12 @@
     .advantage-text {
         font-weight: 500;
         }
-
+        
+    
 }
 
     /*Only for Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
     .container {
         max-width: 768px;
     
@@ -214,15 +229,17 @@
     .header-menu-btn {
         display: none;
         }
-        }
+        
         .advantage-list {
-            flex-wrap: wrap;
             row-gap: 48px;
         }
     .advantage-list-item {
         width: calc((100% - 24px) / 2);
                 }
-
+.team-item {
+    width: calc((100% - 24px) / 2);
+}
+}
         /* Desktop */
 @media screen and (min-width: 1158px) {
     .container {
