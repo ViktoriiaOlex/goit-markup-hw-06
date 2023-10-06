@@ -51,7 +51,7 @@
     
         /* .menu-container.is-open {
                 transform: translateX(0);
-            } */
+            }  */
     
         .mobile-menu-btn {
             position: absolute;
@@ -134,7 +134,8 @@
         color: var(--iris, #4D5AE5);
         }
     
-    .social-media-list {
+    .social-media-list-mobile {
+        display: flex;
         gap: 40px;
         }
         /* Modal form */
@@ -198,8 +199,32 @@
         .portfolio-item {
             flex-basis: 100%;
         }
+/* Footer */
+.footer-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.footer-logo-container, 
+.social-media-footer-container {
+    margin-bottom: 72px;
+}
 
-
+.logo-footer {
+    margin-left: 86px;
+    margin-bottom: 17px;
+}
+.social-media-footer, .subscribe-header {
+    text-align: center;
+}
+.social-media-footer-container {
+    padding: 0 40px;
+}
+.form-input {
+    margin-bottom: 16px;
+}
+.form-button-footer {
+    margin: 0 auto;
+}
 }
 @media only screen and (min-resolution: 192dpi) {
 .section-hero {
@@ -235,7 +260,6 @@
         .team-item {
             flex-basis: 264px;
             margin: 0 auto;
-           
         }
 }
 
@@ -256,22 +280,18 @@
                         url(../images/Dark-bg_tab.jpg);
                 }
     .advantage-list {
-            row-gap: 48px;
+        row-gap: 48px;
         }
     .advantage-list-item {
         width: calc((100% - 24px) / 2);
                 }
-                    .team-list {
-                        padding: 0 92px;
+    .team-list {
+        padding: 0 92px;
+        row-gap: 64px;
                     }
-                    .team-list {
-                        row-gap: 64px;
-                    }
-    
     .team-item {
-    width: calc((100% - 24px) / 2);
-    gap: 24px;
-    
+        width: calc((100% - 24px) / 2);
+        gap: 24px;
 }
     .portfolio-item {
     width: calc((100% - 24px) / 2);
@@ -292,6 +312,10 @@
 .menu-container {
 display: none;
 }
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
 }
 
 /* Desktop */
@@ -307,11 +331,17 @@ display: none;
     .contacts-list {
         display: flex;
         gap: 40px;
-                        }
+    }
     .header-menu-btn {
         display: none;
         }
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+        } 
         }
+
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .section-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),

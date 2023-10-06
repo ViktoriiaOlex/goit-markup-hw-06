@@ -420,11 +420,7 @@ transform: translateY(0%);
     padding: 100px 0;
     background-color: var(--navy-blue);
 }
-.footer-container {
-display: flex;
-align-items: baseline;
 
-}
 .logo-footer {
     display: flex;
     margin-bottom: 16px;
@@ -502,10 +498,10 @@ fill: var(--cloud);
 }
 
 /* HW 5 */
-.subscribe-form {
+/* .subscribe-form {
     display: flex;
     flex-direction: column;
-}
+} */
 .subscribe-header {
     color: var(--WHITE, #FFF);
     font-weight: 500;
@@ -515,10 +511,10 @@ fill: var(--cloud);
     font-size: 16px;
     margin-bottom: 16px;
 }
-.footer-form {
+/* .footer-form {
     display: flex;
     gap: 24px;
-}
+} */
 
 .form-container {
     display: flex;
@@ -581,7 +577,6 @@ input::placeholder {
 
 .backdrop {
     position: fixed;
-   
     top: 0;
     left: 0;
     width: 100%;
