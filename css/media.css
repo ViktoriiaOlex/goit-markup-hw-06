@@ -299,6 +299,10 @@
     .portfolio-list {
     row-gap: 72px;
 }
+.portfolio-img {
+    width: 356px;
+    height: 300px;
+}
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -348,7 +352,10 @@ display: none;
     .header-menu-btn {
         display: none;
         }
-
+.portfolio-img {
+    width: 360px;
+    height: 300px;
+}
     .footer-container {
         display: flex;
         align-items: baseline;
