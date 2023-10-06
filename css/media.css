@@ -299,6 +299,19 @@
     .portfolio-list {
     row-gap: 72px;
 }
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    padding-left: 108px;
+}
+.footer-logo-container {
+    margin-right: 24px;
+}
+ .social-media-footer-container {
+    margin-right: 0;
+ }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .section-hero {

@@ -453,7 +453,7 @@ transform: translateY(0%);
 }
 .social-media-footer-container {
     display: flex;
-    margin-right: 120px;
+    margin-right: 80px;
     margin-bottom: 16px;
     display: inline-block;
 }
