@@ -176,7 +176,7 @@ address {
 .section-hero {
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-    url(../images/bgimage.jpg);
+    url(../images/people-office_desk.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--GREY, rgba(46, 47, 66, 0.70));
