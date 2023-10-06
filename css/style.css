@@ -598,11 +598,11 @@ input::placeholder {
     display: none;
 } */
 
-/* .is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}     */
+}    
 
 .modal {
     position: absolute;

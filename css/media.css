@@ -5,8 +5,8 @@
             max-width: 320px;
             margin: 0 auto;
     
-            outline: 2px solid red;
-            outline-offset: -2px;
+            /* outline: 2px solid red;
+            outline-offset: -2px; */
         }
     
         .nav-link {
@@ -49,9 +49,9 @@
             transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-        /* .menu-container.is-open {
+        .menu-container.is-open {
                 transform: translateX(0);
-            }  */
+            } 
     
         .mobile-menu-btn {
             position: absolute;
@@ -268,8 +268,8 @@
     .container {
         max-width: 768px;
     
-        outline: 2px solid green;
-        outline-offset: -2px;
+        /* outline: 2px solid green;
+        outline-offset: -2px; */
             }
     .header-menu-btn {
         display: none;
@@ -342,8 +342,8 @@ display: none;
         margin: 0 auto;
         padding: 0 15px;
         
-        outline: 2px solid orange;
-        outline-offset: -2px;
+        /* outline: 2px solid orange;
+        outline-offset: -2px; */
             }
     .contacts-list {
         display: flex;
